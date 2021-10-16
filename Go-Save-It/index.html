@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Go Save It</title>
+    <link rel="icon" href="logo.png" type="image/icon type">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body onload="fetchBookmarks()">
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+
+        </nav>
+        <h3 class="text-muted">Go Save It</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h2>Save links to important websites</h2>
+        <form id="myForm">
+          <div class="form-group">
+            <label>Webite Name</label>
+            <input type="text" class="form-control" id="siteName" placeholder="Website Name">
+          </div>
+          <div class="form-group">
+            <label>Website URL</label>
+            <input type="text" class="form-control" id="siteUrl" placeholder="Website URL">
+          </div>
+          <button type="submit" id="btn" class="btn btn-primary">Save It</button>
+        </form>
+      </div>
+
+      <div class="row marketing">
+        <div class="col-lg-12">
+          <div id="bookmarksResults"></div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; <a href="https://www.linkedin.com/in/mainak-chaudhuri-127898176/" target="_blank">Mainak Chaudhuri</a></p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
