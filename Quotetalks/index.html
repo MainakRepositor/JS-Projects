@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuoteTalks</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="main">
+    
+    <div class="error-message" id="error-message">Woops! There was an error!</div>
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">What you are is what you have been. What you'll be is what you do now.</span>
+
+            <button class="button  button--twitter" id="twitter" tittle="Share on Twitter!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author">Buddha</span>
+        </div>
+        <div class="separator"></div>
+        <span class="button-new-quote" id="new-quote">New Quote</span>
+        <br><br><br><br><br><br><br>
+        <h3 id="maker">Made by <a href="https://www.linkedin.com/in/mainak-chaudhuri-127898176">Mainak</a></h3>
+    </div>
+    
+    <!-- Loader -->
+    <div class="loader" id="loader"></div>
+    
+  </main>
+  
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

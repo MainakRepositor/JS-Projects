@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+
+* { box-sizing: border-box; }
+
+html {
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  color: #424242;
+  font-family: 'Quattrocento', serif;
+  font-weight: 600;
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+  background: linear-gradient(
+    60deg,
+    hsl(224, 85%, 66%),
+    hsl(269, 85%, 66%),
+    hsl(314, 85%, 66%),
+    hsl(359, 85%, 66%),
+    hsl(44, 85%, 66%),
+    hsl(89, 85%, 66%),
+    hsl(134, 85%, 66%),
+    hsl(179, 85%, 66%)
+  );
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  border-radius: calc(2 * var(--border-width));
+  animation: moveGradient 4s alternate infinite;
+}
+.main {
+  align-items: center;
+  background-color: rgb(219, 186, 125);
+  display: flex;
+  height: calc(100vh - 25px);
+  justify-content: center;
+  left: 12px;
+  padding: 0 10px;
+  position: relative;
+  top: 12px;
+  width: calc(100vw - 25px);
+}
+
+.quote-container {
+  max-width: 768px;
+  width: auto;
+}
+
+.quote-text {
+  font-size: 2.75rem;
+  margin-bottom: 16px;
+  position: relative;
+}
+#maker
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    font-size: 23px;
+    
+    
+}
+.long-quote {
+  font-size: 2rem;
+}
+
+.fa-quote-left {
+  font-size: 3rem;
+}
+
+.quote-author {
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.quote-author::before,
+.quote-author::after {
+  content: "-";
+}
+
+.button {
+  background: #333;
+  border-radius: 8px;
+  border: 0;
+  box-shadow: 0 0.2rem rgba(121, 121, 121, 0.65);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  height: 2.5rem;
+  outline: none;
+  padding: 0.5rem 1.8rem;
+  position: relative;
+  transition: filter 0.3s, box-shadow 0.1s, transform 0.1s, background 0.1s ease-in-out;
+}
+
+.button:hover {
+  filter: brightness(110%);
+}
+
+.button:active {
+  box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
+  transform: translate(0, 0.2rem)
+}
+
+.button--twitter {
+  align-items: center;
+  border-radius: 50px;
+  bottom: 20px;
+  display: flex;
+  font-size: 24px;
+  height: 50px;
+  justify-content: center;
+  left: 50%;
+  margin-left: -25px;
+  padding: 0;
+  position: fixed;
+  width: 50px;
+}
+
+.button--twitter:hover {
+  background-color: #1DA1F2;
+}
+
+.button--twitter .fa-twitter {
+  font-size: 24px;
+}
+
+.button-new-quote {
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  padding: 2px 5px;
+  position: relative;
+  text-decoration: underline;
+  transition: background 0.2s ease-in-out;
+}
+
+.button-new-quote:hover {
+  background: #e8e8e8;
+}
+
+.button-new-quote:active {
+  bottom: -1px;
+}
+
+.separator {
+  background-color: #424242;
+  height: 1px;
+  margin: 8px auto;
+  max-width: 360px;
+}
+
+/* Loader */
+.loader {
+  border: 10px solid #f3f3f3;
+  border-top: 10px solid #3f2f9b;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  animation: spinLoader 2s linear infinite;
+}
+
+.error-message {
+  position: fixed;
+  top: 24px;
+  display: none;
+}
+.error-message.visible {
+  display: block;
+}
+
+/* Keyframes */
+
+@keyframes moveGradient {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes spinLoader {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
