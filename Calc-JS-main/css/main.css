@@ -1,0 +1,144 @@
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-height: 100vh;
+    padding-top: calc(50vh - 23vw); /* 50vh - 23vw = 47vh - 23vw */
+    background-image: -webkit-linear-gradient(top left, #280d9e 0%, #3cd1d6 100%); /* Chrome 10-25, Safari 5.1-6 */
+    background-image: linear-gradient(to bottom right, #280d9e 0%, #3cd1d6 100%);
+    background-repeat: no-repeat; /* Repeat image on horizontal and vertical axis */
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+
+#header{
+    text-align: center; /* center the title */
+    font-size: 35px; /* set the font size */
+    font-weight: 900; /* set the font weight */
+    color: #f1efef; /* set the font color */
+    
+ 
+}
+h4,#maker{
+    text-align: center; /* center the title */
+    font-size: 20px; /* set the font size */
+    color: #f1efef; /* set the font color */
+    
+  
+}
+.shadow {
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, .35);
+    transition: all .3s ease; /* transition effect */
+}
+
+.shadow:hover { /* on mouse hover */
+    box-shadow: 0 0.3125em 1.25em 0 rgba(46, 61, 73, .20);
+}
+
+.calc-container { /* container for the calc */
+    padding: 0 !important; /* remove padding */
+    min-width: 320px;
+    max-height: 100vh;
+    border-radius: 10px;
+}
+
+.screen { /* container for the screen */
+    height: 100px; /* set the height */
+    background: rgba(41, 47, 54, 0.6) !important;
+    resize: none; /* disable resizing */
+    border: solid #1c2128; /* set the border */
+    border-width: 0 0 10px; /* set the border width */
+    border-radius: 10px 10px 0 0 !important; /* set the border radius */
+    color: #faf6f7;
+    font-size: 2.5em;
+    text-align: right;
+    overflow: auto;
+}
+
+.keypad { /* container for the keypad */
+    position: relative;
+    background: #292f36;
+    padding: 5% 0 5% !important;
+    border-radius: 0 0 10px 10px !important;
+}
+
+.keypad .row {
+    padding: 0;
+    margin: 0;
+    background: #292f36;
+}
+.btn {
+    padding-top: 5% !important; /* set the padding */
+    padding-bottom: 5% !important;
+    background: transparent;
+    color: #5cc8ff;
+    font-size: 2em !important;
+    border-color: aliceblue;
+    border-width: 1rem;
+    border-style: double;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    color: #070707 !important;
+    background: yellow;
+}
+
+.operator {
+    color: #d63c6b;
+    font-weight: 600 !important;
+}
+
+.operator:hover {
+    color: #c41c4f !important;
+}
+
+.screen.active.focus, .screen.active:focus, .screen.focus, .screen:active.focus, .screen:active:focus, .screen:focus, .screen.active, .screen:active { /* on focus */
+    outline: none !important;
+    color: #c41c4f !important;
+    box-shadow: none !important;
+}
+
+.btn.active.focus, .btn.active:focus, /* on focus */
+.btn.focus, .btn:active.focus,
+.btn:active:focus, .btn:focus,
+.btn.active, .btn:active {
+    outline: none !important;
+    color: #00a3f5 !important;
+    box-shadow: none !important;
+}
+
+.operator.active.focus, .operator.active:focus, /* on focus */
+.operator.focus, .operator:active.focus,
+.operator:active:focus, .operator:focus,
+.operator.active, .operator:active {
+    color: #c41c4f !important;
+}
+
+@media (max-width: 991px) { /* on mobile */
+    body {
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .container-fluid { /* remove the padding */
+        padding: 0 !important;
+    }
+
+    .screen {
+        height: 20vh;
+        max-height: 20vh;
+    }
+
+    .keypad {
+        height: 100% !important; /* set the height */
+        max-height: 80vh;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) { /* on mobile */
+    .btn {
+        font-size: 3em !important;
+    }
+}
