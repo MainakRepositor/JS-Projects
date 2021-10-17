@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  overflow-x: hidden;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ecf0f1;
+}
+/* Header */
+header {
+  width: 100%;
+  height: 10vh;
+  background-color: #ecf0f1;
+  display: flex;
+  align-items: center;
+}
+/* Logo */
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 1rem;
+}
+header .logo-text {
+  text-transform: uppercase;
+  margin-left: 1rem;
+  color: #34495e;
+  letter-spacing: 3px;
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+  height: 90vh;
+  margin: 0 auto;
+  /* background-color: yellow; */
+}
+/* BMI container */
+.bmi-container {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  /* background-color: green; */
+  display: grid;
+  grid-template-rows: 5% 5% 90%;
+}
+
+/* BMI Header */
+.bmi-header {
+  background-color: #34495e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  color: #ecf0f1;
+  letter-spacing: 2px;
+}
+
+/* BMI Menu */
+.bmi-menu {
+  background-color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-right: 10px solid #34495e;
+  border-left: 10px solid #34495e;
+  letter-spacing: 2px;
+}
+.bmi-menu .standard {
+  height: 100%;
+  background-color: #9b59b6;
+  color: #ecf0f1;
+  padding: 0 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.bmi-menu .metric {
+  height: 100%;
+  background-color: #ecf0f1;
+  color: #9b59b6;
+  padding: 0 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+/* BMI body */
+.bmi-body {
+  border: 10px solid #34495e;
+  display: flex;
+  justify-content: center;
+}
+#standard-form {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  transition: 0.4s ease;
+}
+#metric-form {
+  display: none;
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+  transition: 0.4s ease;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #34495e;
+  letter-spacing: 2px;
+}
+
+input {
+  width: 50%;
+  display: block;
+  margin-top: 10px;
+  height: 40px;
+  border: 1px solid #333;
+  outline: none;
+  padding: 5px;
+  background-color: #ecf0f1;
+  font-size: 1rem;
+}
+input:focus {
+  border: 1px solid #34495e;
+  box-shadow: 0px 0px 3px #34495e;
+}
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #ecf0f1;
+  background-color: #34495e;
+  padding: 1rem;
+  margin-top: 1rem;
+  transition: 0.3s ease;
+  outline: none;
+  border: none;
+}
+.btn:hover {
+  letter-spacing: 2px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+}
+/* Class to be added in js */
+.class1 {
+  background-color: #9b59b6;
+  color: #fff;
+}
+/* Media queries */
+@media (max-width: 768px) {
+  /* Header */
+  header {
+    justify-content: center;
+  }
+  .logo {
+    margin-left: 0;
+  }
+  header .logo-text {
+    margin-left: 20px;
+  }
+  /* main container */
+  .container {
+    width: 100%;
+  }
+  /* BMI container */
+  .bmi-container {
+    width: 100%;
+  }
+  .bmi-menu {
+    font-size: 14px;
+  }
+  input {
+    width: 100%;
+  }
+}
