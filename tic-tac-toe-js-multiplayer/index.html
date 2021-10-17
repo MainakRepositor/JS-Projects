@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiplayer Tictactoe</title>
+  <meta name="author" content="Rob Hitt">
+  <meta name="description" content="Tic Tac Toe">
+
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link rel="stylesheet" href="css/master.css" type="text/css">
+
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+
+  <div>
+    <h1 class="header">Multiplayer Tic Tac Toe</h1>
+  </div>
+  <div class="enter-players">
+
+    <form id="player-form">
+      <div class="player-container">
+        <label for="player1">Player 1</label>
+        <input type="text" placeholder="enter name" name="player1" id="player1" class="input-field" />
+      </div>
+      <div class="player-container">
+        <label for="player2">Player 2</label>
+        <input type="text" placeholder="enter name" name="player2" id="player2" class="input-field" />
+      </div>
+
+      <input type="submit" class="submit-btn" value="Start Game" />
+    </form>
+  </div>
+
+  <div class="board__main hide-container">
+    <div class="board___player-turn"></div>
+
+    <div class="board__container">
+      <div class="board__cell">
+        <div class="letter" data-id="0"></div>
+      </div>
+      <div class="board__cell">
+        <div class="letter" data-id="1"></div>
+      </div>
+      <div class="board__cell">
+        <div class="letter" data-id="2"></div>
+      </div>
+
+      <div class="board__cell">
+        <div class="letter" data-id="3"></div>
+      </div>
+      <div class="board__cell">
+        <div class="letter" data-id="4"></div>
+      </div>
+      <div class="board__cell">
+        <div class="letter" data-id="5"></div>
+      </div>
+
+      <div class="board__cell">
+        <div class="letter" data-id="6"></div>
+      </div>
+      <div class="board__cell">
+        <div class="letter" data-id="7"></div>
+      </div>
+      <div class="board__cell">
+        <div class="letter" data-id="8"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="reset reset--hidden">
+    <div class="reset__text">
+    </div>
+    <button class="replay-btn" value="replay">
+      <span class="clear-board">Clear Board</span>
+    </button>
+  </div>
+</body>
+
+</html>

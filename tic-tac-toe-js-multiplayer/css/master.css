@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica", sans-serif;
+  box-sizing: border-box;
+}
+
+.hide-container {
+  display: none;
+}
+
+.header {
+  text-align: center;
+  margin: 15px 0;
+  font-family: "Permanent Marker";
+}
+
+.enter-players {
+  margin: 0 auto;
+  width: 80%;
+  text-align: center;
+  position: relative;
+}
+
+.input-field {
+  border: 2px solid #000;
+  outline: none;
+  padding: 4px 8px;
+  margin: 0 0 10px 4px;
+  font-size: 18px;   
+}
+
+.input-field:focus {
+  border: 2px solid #E15E32;
+}
+
+.submit-btn {
+  border: 2px solid #000;
+  padding: 8px 8px;
+  font-size: 18px;
+  width: 250px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #fff;
+}
+
+.submit-btn:active,
+.submit-btn:focus {
+  outline: none;
+  border: 2px solid #E15E32;
+}
+
+.submit-btn:hover {
+  background-color: #ece9e9;
+}
+
+.board___player-turn {
+  text-align: center;
+  margin: 10px 0 10px;
+  height: 54px;
+}
+
+.name--style {
+  font-size: 22px;
+}
+
+.board__container {
+  width: 40%;
+  background-color: pink;
+  margin: 0 auto;
+  font-size: 0;
+  border: 2px solid #000;
+  -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.75);
+}
+
+.board__cell {
+  width: calc(100% / 3);
+  display: inline-block;
+  font-size: 40px;
+  text-align: center;
+  border: 2px solid #000;
+  padding: 20px;
+  vertical-align: top;
+  font-family: "Permanent Marker";
+}
+
+.board__cell--winner {
+  background-color: #f9738a;
+}
+
+.letter {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Permanent Marker";
+}
+
+/* WINNER CONTAINER */
+.reset {
+  text-align: center;
+  margin: 20px auto 0;
+}
+
+.reset--hidden {
+  display: none;
+}
+
+.replay-btn {
+  width: 25%;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    outline: none;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 12px;
+    word-spacing: 3px;
+    background-color: #fff;
+}
+
+.replay-btn:hover,
+.replay-btn:active {
+  outline: none;
+  color: #fff;
+  background-color: #000;
+}
+
+.congratulations {
+  font-size: 24px;
+}
+
+.u-r-winner {
+  font-size: 18px;
+  height: 18px;
+  line-height: 18px;
+  margin: 2px 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .board__cell {
+    font-size: 16px;
+    padding: 5px;
+  }
+
+  .replay-btn {
+    width: 50%;
+  }
+}
