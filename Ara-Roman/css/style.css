@@ -1,0 +1,131 @@
+
+body {
+  background-color: #f6f8fa;
+  background: linear-gradient(to right, #000, #000); 
+  display: flex;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Poppins", Inter, system, Roboto, Segoe UI, Arial, sans-serif;
+  color: #24292e;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.main{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*justify-content: center;*/
+	padding: 10px;
+	height: 96vh;
+}
+h1{
+	font-size: 0.5rem;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+input{
+	outline: 0;
+	width: 60vw;
+	margin: 10px 0;
+	height: 80px;
+	padding: 5px;
+	padding-left: 20px;
+	border-style: none;
+	border-radius: 5px;
+	background: rgba(138,138,138,.4);
+	font-size: 2.5rem;
+	color:#fff;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+::placeholder{
+	color: #fff;
+}
+
+.popup-button{
+    background-color: lightgreen;
+    border-radius: 3px;
+    border: 0px;
+    margin-top: 0px;
+    top: 0;
+    buttom: 0;
+}
+@media(max-width: 500px) {
+	body{
+		padding-top: 20px;
+	}
+	h1{
+		font-size: 5rem;
+	}
+	input{
+		width: 90vw;
+		font-size: 2rem;
+	}
+
+}
+.popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: flex;
+  background-color: rgba(0, 0, 0, .5);
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 300ms, opacity 300ms;
+}
+
+.popup_opened {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup__title {
+  font-size: 25px;
+  margin: 0 0 18px;
+  font-weight: 800;
+  text-align: center;
+  font-family: georgia;
+}
+.popup__text {
+  font-size: 10px;
+  font-weight: 500;
+ }
+ 
+.popup__container {
+  background-color: #fff;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 15px;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  padding: 15px;
+}
+
+.popup__image {
+  max-width: 60vw;
+  max-height: 60vh;
+}
+
+.close-button {
+  border: 0;
+  background: url('icon/button-close.svg') center center / 100% 100% no-repeat;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  fill: #000;
+  padding: 0;
+  cursor: pointer;
+  display: block;
+}

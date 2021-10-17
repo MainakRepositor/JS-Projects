@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html;" />
+    <meta name="canonical" href="index.html">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Convert Roman numerals to Arabic numerals and Vice versa." />
+    <meta name="keywords" content="Convert, Roman numerals, Arabic numerals, converter app" />
+    <!-- Googlr fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Roman Numeral Conversion</title>
+  </head>
+  <body>
+  <!-- pop up div -->
+  <div class="popup">
+    <div class="popup__container">
+      <button type="button" class="close-button"></button>
+      <h2 class="popup__title">Instructions</h2>
+      <p class="popup__text">To convert Roman numerals, type a number from 1 to 9999. <br> To convert to Arabic numerals, type a valid alphabets. </p>
+    </div>
+  </div>
+    <!-- converter div -->
+    <div class="main">
+      <h1>Roman Numeral Converter</h1><button type="button" class="popup-button">click me</button>
+      <!-- arbic input -->
+      <input id="arabicInput" type="text" name="arabic"  placeholder="arabic numbers"><br>
+      <!-- roman input -->
+      <input id="romanInput" type="text" name="roma" value="" placeholder="roman numbers">
+   </div>
+    <script type="text/javascript" src="js/app.js">
+    </script>
+    
+    <script type="text/javascript" src="js/pop.js">
+    </script>
+  </body>
+</html>
