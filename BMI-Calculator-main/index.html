@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <header>
+      
+      <h2 class="logo-text">BMI Calculator</h2>
+    </header>
+    <!-- Main Container -->
+    <div class="container">
+      <div class="bmi-container">
+        <!-- BMI Header -->
+        <div class="bmi-header">
+          <p>Calculate your body mass index</p>
+        </div>
+
+        <!-- BMI Menu -->
+        <div class="bmi-menu">
+          <div class="standard" id="standard" status="active">
+            <p>Standard System</p>
+          </div>
+          <div class="metric" id="metric" status="hidden">
+            <p>Metric System</p>
+          </div>
+        </div>
+
+        <div class="bmi-body">
+          <!-- Form for Standard Calculation -->
+          <div id="standard-form">
+            <!-- For Error msg -->
+            <span style="color: red;" id="error"></span>
+
+            <!-- BMI Result -->
+            <div class="bmi-result"></div>
+
+            <!-- Form starts -->
+            <label for="height">Your Height(in Feet & inches):</label>
+            <div class="form-group">
+              <input
+                type="text"
+                name="h-in-feet"
+                class="h-in-feet"
+                id="h-in-feet"
+                minlength="0"
+                maxlength="2"
+                placeholder="In Feet"
+                required
+              />
+              <input
+                type="text"
+                name="h-in-inches"
+                class="h-in-inches"
+                id="h-in-inches"
+                minlength="0"
+                maxlength="3"
+                placeholder="In inches"
+                required
+              />
+            </div>
+            <label for="weight">Your weight(in Pounds):</label>
+            <input
+              type="text"
+              name="w-in-pounds"
+              class="w-in-pounds"
+              id="w-in-pounds"
+              minlength="0"
+              maxlength="4"
+              placeholder="In Pounds"
+              required
+            />
+            <button class="btn" type="submit" onclick="cal_standard_bmi()">
+              Calculate BMI
+            </button>
+          </div>
+
+          <!-- Form for Metric Calculation -->
+          <div id="metric-form">
+            <!-- For Error msg -->
+            <span style="color: red;" id="error2"></span>
+
+            <!-- BMI Result -->
+            <div class="bmi-result2"></div>
+
+            <!-- Form starts -->
+            <label for="height">Your Height(in Centimeters):</label>
+            <div class="form-group">
+              <input
+                type="text"
+                name="h-in-centimeter"
+                class="h-in-centimeter"
+                id="h-in-centimeter"
+                minlength="0"
+                maxlength="3"
+                placeholder="In Centimeter"
+              />
+            </div>
+            <label for="weight">Your weight(in Kilograms):</label>
+            <input
+              type="text"
+              name="w-in-kgs"
+              class="w-in-kgs"
+              id="w-in-kgs"
+              minlength="0"
+              maxlength="4"
+              placeholder="In Kilograms"
+            />
+            <button type="submit" class="btn" onclick="cal_metric_bmi()">
+              Calculate BMI
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JS -->
+    <script src="js/bmi_converter.js"></script>
+  </body>
+</html>

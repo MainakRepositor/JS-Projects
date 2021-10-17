@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+}
+
+#interest {
+  margin: auto;
+  width: 50%;
+}
+
+input {
+  margin: 5px;
+  width: 50%;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+}
+
+label {
+  display: inline-block;
+  width: 40%;
+}
+
+p, h1 {
+  text-align: center;
+}
+
+#monthly-contribution {
+  margin: auto;
+  display: block;
+  width: 50%;
+}

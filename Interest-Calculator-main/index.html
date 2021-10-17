@@ -1,0 +1,80 @@
+<html>
+<head>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="https://unpkg.com/babel-polyfill@latest/dist/polyfill.min.js"></script>
+  <script src="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+  <link type="text/css" rel="stylesheet" href="https://unpkg.com/bootstrap-vue@latest/dist/bootstrap-vue.css"/>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<title>Interest Calculator</title>
+</head>
+<body>
+  <h1 class="display-1">Interest Calculator</h1>
+  <div class="container-fluid">
+    <form id="interest" @submit="checkForm" method="post">
+      <p v-if="errors.length">
+        <b>Please correct the following error(s):</b>
+        <ul>
+          <li v-for="error in errors">{{ error }}</li>
+        </ul>
+      </p>
+
+      <!-- principle -->
+      <div class="input-group mb-3">
+        <label for="principle">Principal</label>
+        <b-input-group size="lg" prepend="₹">
+          <b-form-input name="principle" v-model.number="principle"></b-form-input>
+        </b-input-group>
+      </div>
+
+      <!-- rate -->
+      <div class="input-group mb-3">
+        <label for="rate">Rate</label>
+        <b-input-group size="lg" append="%">
+          <b-form-input name="rate" v-model.number="rate"></b-form-input>
+        </b-input-group>
+      </div>
+
+      <!-- compounds -->
+      <div class="input-group mb-3">
+        <label for="compounds">Compounds</label>
+        <b-form-select v-model="compounds" :options="options">
+
+      </div>
+
+      <!-- time -->
+      <div class="input-group mb-3">
+        <label for="time">Time</label>
+        <b-input-group size="lg" append="years">
+          <b-form-input name="time" v-model.number="time"></b-form-input>
+        </b-input-group>
+      </div>
+
+
+      <!-- recurring -->
+      <div class="input-group mb-3" id="monthly-contribution">
+        <b-button size="lg" variant="primary" :pressed.sync="monthly" variant="monthly">Additional Monthly Contributions?</b-button>
+      </div>
+
+
+      <!-- additional -->
+      <div class="input-group mb-3" v-if="monthly">
+        <label for="additional">Monthly contributions:</label>
+        <b-input-group size="lg" prepend="₹">
+          <b-form-input name="additional" v-model.number="additional"></b-form-input>
+        </b-input-group>
+      </div>
+
+
+      <!-- final value --->
+      <p class="display-3">₹{{ calc }}</p>
+    </form>
+  </div>
+
+  <h2><center> Made by : Mainak </center></h2>
+  <script src="index.js"></script>
+</body>
+</html>
