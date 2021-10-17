@@ -57,3 +57,5 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 48 | Calculator | [Demo]() | [Code]() |
 | 49 | Calculator | [Demo]() | [Code]() |
 | 50 | Calculator | [Demo]() | [Code]() |
+
+
