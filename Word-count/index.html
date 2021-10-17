@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word-View</title>
+    <link rel = "icon" href = 
+"https://static.dw.com/image/18269307_303.jpg" 
+        type = "image/x-icon">
+    <style>
+        body{
+            padding: 20px 100px;
+        }
+        h1{
+            text-align: center;
+            background-color: #260080;
+            color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+        #textBox{
+            font-size: 25px;
+            width: 99.5%;
+            border-color: #ff7300;
+            border-radius: 20px;
+            border-width: 10px;
+            margin-top: 10px;
+
+        }
+        p {
+            text-align: center;
+            background-color: #1df001;
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 10px;
+            margin: 0px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Word & Character Counter</h1>
+    <textarea id="textBox" cols="30" rows="10"></textarea>
+    <p>
+        <span id="woRds"> 0 </span> Words &
+         <span id="chAr"> 0 </span> Characters
+    </p>
+    <script>
+        let textBox= document.getElementById('textBox')
+
+        textBox.addEventListener("input", function(){
+            let text = this.value;
+            let char= text.length;
+
+            text = text.trim();
+            
+            document.getElementById("chAr").innerHTML=char;
+
+            let woRds = text.split(" ")
+            let cleanList= woRds.filter(function(e){
+                return e != '';
+
+
+            });
+            document.getElementById("woRds").innerHTML= cleanList.length;
+        })
+    </script>
+</body>
+</html>
