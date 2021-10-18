@@ -1,0 +1,64 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  body {
+    font-family:"Raleway",sans-serif;
+    background:#f0f5ff;
+  }
+  .poll {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+    max-width:400px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0px 0px 20px 5px rgba(35,30,128,0.05);
+  }
+  .poll .question {
+    padding:20px;
+    color:#111;
+    font-size:18px;
+    border-bottom:1px solid #eee;
+  }
+  .poll .answers {
+    padding:20px 20px 10px;
+  }
+  .poll .answers .answer {
+    position:relative;
+    width:100%;
+    height:40px;
+    padding:0px 10px;
+    line-height:40px;
+    color:#111;
+    margin-bottom:10px;
+    border:1px solid #d4d4d4;
+    border-radius:10px;
+    cursor:pointer;
+    overflow:hidden;
+  }
+  .poll .answers .answer.selected {
+    border:2px solid #8f9fe8;
+  }
+  .poll .answers .answer span.percentage-value {
+    position:absolute;
+    top:50%;
+    right:0px;
+    width:40px;
+    transform:translateY(-50%);
+    color:#111;
+    font-size:15px;
+  }
+  .poll .answers .answer span.percentage-bar {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:0%;
+    height:100%;
+    background:#ccd8f1;
+    z-index:-1;
+    transition:width 300ms ease-in-out;
+  }
