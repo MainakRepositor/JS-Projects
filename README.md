@@ -29,7 +29,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 21 | Word Counter | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Word-count) |
 | 22 | Hangman Game | [Demo]() | [Code]() |
 | 23 | Weather App | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/MausamDoot) |
-| 24 | Countdown Timer | [Demo]() | [Code]() |
+| 24 | Countdown Timer | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Countdown%20timer) |
 | 25 | Business Card Generator | [Demo]() | [Code]() |
 | 26 | Music Player | [Demo]() | [Code]() |
 | 27 | QR-Code Scanner | [Demo]() | [Code]() |
