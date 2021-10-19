@@ -32,7 +32,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 24 | Countdown Timer | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Countdown%20timer) |
 | 25 | Business Card Generator | [Demo]() | [Code]() |
 | 26 | Music Player | [Demo]() | [Code]() |
-| 27 | QR-Code Scanner | [Demo]() | [Code]() |
+| 27 | Drum Kit | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/JS-drum) |
 | 28 | IP-Lookup | [Demo]() | [Code]() |
 | 29 | Calculator | [Demo]() | [Code]() |
 | 30 | Calculator | [Demo]() | [Code]() |
