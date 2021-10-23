@@ -43,7 +43,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 35 | Binary Tree Visulaizer | [Demo]() | [Code]() |
 | 36 | Chart Maker | [Demo]() | [Code]() |
 | 37 | Sorting Visualizer | [Demo]() | [Code]() |
-| 38 | Sudoku Game | [Demo]() | [Code]() |
+| 38 | Sudoku Game | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Sudoku-JS) |
 | 39 | Calculator | [Demo]() | [Code]() |
 | 40 | Calculator | [Demo]() | [Code]() |
 | 41 | Calculator | [Demo]() | [Code]() |
