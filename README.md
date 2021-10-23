@@ -30,20 +30,20 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 22 | Hangman Game | [Demo]() | [Code]() |
 | 23 | Weather App | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/MausamDoot) |
 | 24 | Countdown Timer | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Countdown%20timer) |
-| 25 | Business Card Generator | [Demo]() | [Code]() |
+| 25 | Drag and Drop Cards | [Demo](https://animalia-dd.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/DD-Animalia) |
 | 26 | Music Player | [Demo]() | [Code]() |
 | 27 | Drum Kit | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/JS-drum) |
 | 28 | IP-Lookup | [Demo]() | [Code]() |
-| 29 | Calculator | [Demo]() | [Code]() |
-| 30 | Calculator | [Demo]() | [Code]() |
-| 31 | Calculator | [Demo]() | [Code]() |
-| 32 | Calculator | [Demo]() | [Code]() |
-| 33 | Calculator | [Demo]() | [Code]() |
-| 34 | Calculator | [Demo]() | [Code]() |
-| 35 | Calculator | [Demo]() | [Code]() |
-| 36 | Calculator | [Demo]() | [Code]() |
-| 37 | Calculator | [Demo]() | [Code]() |
-| 38 | Calculator | [Demo]() | [Code]() |
+| 29 | Train-Number | [Demo]() | [Code]() |
+| 30 | Seat Booking | [Demo]() | [Code]() |
+| 31 | Theme Changer | [Demo]() | [Code]() |
+| 32 | Star-Trek | [Demo]() | [Code]() |
+| 33 | Typewriter | [Demo]() | [Code]() |
+| 34 | Pathfinder | [Demo]() | [Code]() |
+| 35 | Binary Tree Visulaizer | [Demo]() | [Code]() |
+| 36 | Chart Maker | [Demo]() | [Code]() |
+| 37 | Sorting Visualizer | [Demo]() | [Code]() |
+| 38 | Sudoku Game | [Demo]() | [Code]() |
 | 39 | Calculator | [Demo]() | [Code]() |
 | 40 | Calculator | [Demo]() | [Code]() |
 | 41 | Calculator | [Demo]() | [Code]() |
