@@ -27,7 +27,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 19 | Analog Clock | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Waqt) |
 | 20 | Tic-tac-toe Game | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/tic-tac-toe-js-multiplayer) |
 | 21 | Word Counter | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Word-count) |
-| 22 | Hangman Game | [Demo]() | [Code]() |
+| 22 | Hangman Game | [Demo](https://hangman-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Hangman) |
 | 23 | Weather App | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/MausamDoot) |
 | 24 | Countdown Timer | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Countdown%20timer) |
 | 25 | Drag and Drop Cards | [Demo](https://animalia-dd.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/DD-Animalia) |
