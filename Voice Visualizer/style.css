@@ -1,0 +1,49 @@
+html { height: 100%; display: flex; background: #1D1E22; color: white; }
+body { margin: auto; text-align: center; }
+
+.visualizer {
+  display: flex; 
+  width: 100vw;
+  height: 50vmin;
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  perspective: 700px;
+}
+
+.node {
+  display: block;
+  width: 5em;
+  height: 100%;
+  flex: 1 1 auto;
+  background: blue;
+  background: rgb(var(--c, 0), 155, 50);
+  transform-origin: bottom center;
+  margin: 5px;
+
+  transform: scaleY( var(--level, 0.1) );
+
+  transform: 
+    translateZ( calc( 
+      (1 - var(--level, 0)) * -200px
+    ) )
+
+    scaleY( calc( 
+      (var(--level,0) * 0.75) + 0.25) 
+    );
+
+  animation: eq-in .6s ease-out backwards;
+  animation-timing-function: cubic-bezier(.6,0,.2,1.3);
+  animation-duration: calc( .8s + ( var(--i) * .05s ) );
+  @keyframes eq-in {
+    from {
+      transform: 
+        translateZ( calc( 
+          (1 - var(--level, 0)) * -200px
+        ) )
+
+        scaleY(1);
+    }
+  }
+}
