@@ -42,7 +42,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 34 | Pathfinder | [Demo]() | [Code]() |
 | 35 | Binary Tree Visulaizer | [Demo](https://binary-tree-viz.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Binary-Tree-Visualizer) |
 | 36 | Chart Maker | [Demo]() | [Code]() |
-| 37 | Sorting Visualizer | [Demo]() | [Code]() |
+| 37 | Sorting Visualizer | [Demo](https://sortviz-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Sorting-Visualization) |
 | 38 | Sudoku Game | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Sudoku-JS) |
 | 39 | Calculator | [Demo]() | [Code]() |
 | 40 | Calculator | [Demo]() | [Code]() |
