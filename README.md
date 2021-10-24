@@ -34,7 +34,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 26 | Music Player | [Demo]() | [Code]() |
 | 27 | Drum Kit | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/JS-drum) |
 | 28 | IP-Lookup | [Demo]() | [Code]() |
-| 29 | Train-Number | [Demo]() | [Code]() |
+| 29 | Voice Visuaizer | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Voice%20Visualizer) |
 | 30 | Seat Booking | [Demo](https://seat-booker.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Seat%20Booking) |
 | 31 | Theme Changer | [Demo]() | [Code]() |
 | 32 | Star-Trek | [Demo]() | [Code]() |
@@ -44,7 +44,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 36 | Chart Maker | [Demo]() | [Code]() |
 | 37 | Sorting Visualizer | [Demo](https://sortviz-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Sorting-Visualization) |
 | 38 | Sudoku Game | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Sudoku-JS) |
-| 39 | Calculator | [Demo]() | [Code]() |
+| 39 | Pacman Game | [Demo]() | [Code]() |
 | 40 | Calculator | [Demo]() | [Code]() |
 | 41 | Calculator | [Demo]() | [Code]() |
 | 42 | Calculator | [Demo]() | [Code]() |
