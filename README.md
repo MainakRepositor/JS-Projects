@@ -34,7 +34,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 26 | Music Player | [Demo]() | [Code]() |
 | 27 | Drum Kit | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/JS-drum) |
 | 28 | IP-Lookup | [Demo]() | [Code]() |
-| 29 | Voice Visuaizer | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Voice%20Visualizer) |
+| 29 | Voice Visuaizer | [Demo](https://voice-viz.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Voice%20Visualizer) |
 | 30 | Seat Booking | [Demo](https://seat-booker.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Seat%20Booking) |
 | 31 | Theme Changer | [Demo]() | [Code]() |
 | 32 | Star-Trek | [Demo]() | [Code]() |
