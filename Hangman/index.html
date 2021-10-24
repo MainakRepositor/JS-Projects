@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="theme-color" content="#5c677d" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>03 Hangman</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = 
+        "https://st2.depositphotos.com/4191945/6513/v/600/depositphotos_65138167-stock-illustration-logo-h-letter-for-company.jpg" 
+        type = "image/x-icon">
+</head>
+<body>
+
+    <div class="container-1" id='container'>
+       <div class="canvas-container">
+        <canvas></canvas>
+        <div class="life">
+            <p>
+            </p>
+        </div>
+       </div>
+        <div class="keys">
+            <div class="hint">
+                (your hint here !!)
+            </div>
+            <div class="guessed-word">
+                <br>
+                * YOUR---TEXT---HERE
+            </div>
+            <div class="guessedWord">Guessed Words</div>
+            <div class="input">
+                
+            </div>
+        </div>
+        <!-- The Modal -->
+        <div id="myModal" class="myModal" onmouseover = "styleModalHover()" onmouseout = "styleModal()">
+            <div class="modalContainer" style= "padding:0; padding-right: 10px; padding-top:10px">
+                <span class="close">&times;</span>
+
+                <!-- Modal content -->
+                <div class="modalContent">
+                <p style = "text-align: center; font-weight: bolder; font-size: 30px;">Result</p>
+
+                <button type="button" class="btn btn-outline-light" onclick = 'playAgain()'>PLAY AGAIN!</button>
+                </div>
+            </div>
+        
+        </div>
+        
+    </div>
+    <h2>Made By : Mainak</h2>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/4b9e079e00.js" crossorigin="anonymous"></script>
+</body>
+</html>

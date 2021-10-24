@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    background-color: #5c677d;
+}
+.container-1{
+    display: flex;
+    padding: 50px 150px;
+    padding-bottom: 0;
+    margin: auto;
+}
+.keys{
+    text-align: center;
+}
+.hint{
+    height: 50px;
+    color: #f8f9fa;
+    font-weight: bold;
+    font-size: 20px;
+}
+h2
+{
+    text-align: center;
+    color: #f8f9fa;
+}
+.life{
+    text-align: center;
+}
+.guessed-word{
+    font-size: 40px;
+    
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+     -moz-user-select: none; /* Old versions of Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+          user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+.guessedWord{
+    margin: 50px 0;
+    color: #f8f9fa;
+    font-size: 50px;
+}
+.button1{
+    padding: 10px;
+    margin: 5px;
+}
+
+/* The Modal (background) */
+.myModal {
+    border-radius: 10px;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color:#343a40; /* Black w/ opacity */
+    border: solid 1px white;
+
+  }
+
+  
+  /* Modal Content/Box */
+  .modalContent {
+      text-align: center;
+    color: white;
+    /* background-color: #fefefe; */
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    /* border: 1px solid #888; */
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  .modalContent p{
+      padding-bottom: 40px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+.canvas-container{
+    margin: auto;
+}
+@media only screen and (max-width: 600px) {
+    .container-1{
+        display: inline-block;
+        padding: 20px 10px;
+        /* font-size: 30px; */
+    }
+    button{
+        font-size: 10px;
+
+    }
+    .guessed-word{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 780px) {
+    .container-1{
+        padding-left:50px ;
+        padding-right:50px ;
+
+    }
+}
+@media only screen and (min-width: 780px) {
+    .container-1{
+        padding: 100px 100px;
+
+    }
+    .keys{
+        padding: 0 100px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .container-1{
+        padding-left:10px ;
+        padding-right:10px ;
+
+    }
+    button{
+        font-size: 10px;
+
+    }
+    .guessed-word{
+        font-size: 20px;
+    }
+}
