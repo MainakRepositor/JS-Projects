@@ -1,0 +1,110 @@
+@import "main.css";
+@import "medium.css";
+
+@media screen and (min-width: 1000px) and (max-width: 1920px) and (-webkit-min-device-pixel-ratio: 1) {
+  h1 {
+    font-size: 7.594rem;
+  }
+
+  h2 {
+    font-size: 5.063rem;
+  }
+
+  h3 {
+    font-size: 3.375rem;
+  }
+
+  h4 {
+    font-size: 2.25rem;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+
+  .active::after {
+    left: 50%;
+    transform: translate(-50%, -50%);
+    writing-mode: horizontal-tb;
+    font-size: calc(100vw / 4);
+  }
+
+  .grid {
+    grid-gap: 5rem;
+  }
+
+  .grid__imagewrapper {
+    height: 100%;
+  }
+
+  .grid:nth-of-type(odd) .grid__imagewrapper {
+    grid-column: 2 / 3;
+    grid-row-start: 1;
+  }
+
+  .grid__text {
+    text-align: left;
+  }
+
+  .grid:nth-of-type(odd) .grid__text {
+    grid-column: 1 / 2;
+    grid-row-start: 1;
+  }
+
+  .active .bounce {
+    animation: bounce 15s linear 2s infinite alternate;
+  }
+
+  @keyframes bounce {
+    0% {
+      transform: translate(0, 0);
+    }
+    33% {
+      transform: translate(2vw, 2vh);
+    }
+    66% {
+      transform: translate(5vw, -5vh);
+    }
+    100% {
+      transform: translate(-2vw, -10vh);
+    }
+  }
+
+  .active .float {
+    animation-name: float, scale;
+    animation-duration: 10s, 5s;
+    animation-delay: 1s, 14s;
+    animation-timing-function: linear, ease;
+    animation-iteration-count: 1, infinite;
+    animation-direction: normal, alternate;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes float {
+    100% {
+      transform: translate(5vw, -12vh);
+    }
+  }
+
+  @keyframes scale {
+    0% {
+      transform: scale(1, 1) translate(5vw, -12vh);
+    }
+    100% {
+      transform: scale(1.1, 1.1) translate(5vw, -12vh);
+    }
+  }
+
+  .flex {
+    padding: 120px 15vw;
+    background-image: url(../img/section3-bg--large.jpg);
+  }
+
+  .footer {
+    justify-content: space-between;
+  }
+}
