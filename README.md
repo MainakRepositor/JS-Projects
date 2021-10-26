@@ -55,7 +55,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 46 | Dictionary | [Demo]() | [Code]() |
 | 47 | Graph Generator | [Demo]() | [Code]() |
 | 48 | ChatBot | [Demo]() | [Code]() |
-| 49 | Calculator | [Demo]() | [Code]() |
+| 49 | GameOfLife | [Demo](https://seegameoflife.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/GameOfLife) |
 | 50 | Calculator | [Demo]() | [Code]() |
 
 
