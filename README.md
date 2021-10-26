@@ -48,13 +48,13 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 40 | Customer Icecream Maker | [Demo]() | [Code]() |
 | 41 | Text Animation | [Demo]() | [Code]() |
 | 42 | AI Based Webpage | [Demo]() | [Code]() |
-| 42 | Calculator | [Demo]() | [Code]() |
-| 43 | Calculator | [Demo]() | [Code]() |
-| 44 | Calculator | [Demo]() | [Code]() |
-| 45 | Calculator | [Demo]() | [Code]() |
-| 46 | Calculator | [Demo]() | [Code]() |
-| 47 | Calculator | [Demo]() | [Code]() |
-| 48 | Calculator | [Demo]() | [Code]() |
+| 42 | Car Games | [Demo]() | [Code]() |
+| 43 | Image Editor | [Demo]() | [Code]() |
+| 44 | Translator | [Demo]() | [Code]() |
+| 45 | Expense Tracker | [Demo]() | [Code]() |
+| 46 | Dictionary | [Demo]() | [Code]() |
+| 47 | Graph Generator | [Demo]() | [Code]() |
+| 48 | ChatBot | [Demo]() | [Code]() |
 | 49 | Calculator | [Demo]() | [Code]() |
 | 50 | Calculator | [Demo]() | [Code]() |
 
