@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Game of Life</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = "https://i.pinimg.com/originals/5f/cc/44/5fcc44966e62533233195196b052be8f.png" 
+        type = "image/x-icon">
+</head>
+
+<body>
+
+    <div id="main_div">
+
+        <div id="opt_div">
+            <div id="option_panel">
+                <label class="opt_el">Initial Density</label>
+                <input class="opt_el" id="den_tf" type="number" value="0.25" min="0" max="1">
+                <label class="opt_el">Speed [Gen/s]</label>
+                <input class="opt_el" id="time_tf" type="number" value="10" min="0.01" max="1000">
+                <input class="opt_el" id="restart_btn" type="button" value="Start" 
+                    onclick="run_game_of_life(document.getElementById('den_tf').value,
+                    document.getElementById('time_tf').value)"/>
+                <button id="abt" onclick="window.location.href='https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life'">About</button>
+                <button id="me" onclick="window.location.href='https://www.linkedin.com/in/mainak-chaudhuri-127898176/'">Made By</button>
+                <br><br>
+                <h3>GAME</h3>
+                <h3>OF</h3>
+                <h3>LIFE</h3>
+      
+            </div>
+        </div>
+        
+    
+        <div id="disp_div">
+            <canvas id="game_cnv" width="640" height="640"></canvas>
+            <div>
+                <canvas id="data_cnv" width="110" height="80"></canvas>
+                <canvas id="chart_cnv" width="520" height="80"></canvas>
+            </div>
+        </div>
+
+    </div>
+     <script src="gol.js"></script>
+
+</body>
+
+
+</html>
