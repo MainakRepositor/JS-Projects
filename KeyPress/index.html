@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">  
+    <title>Keypress Detector</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+      
+    <div class="box">
+        <h1>Know Your Type</h1>
+      <p class="text">Press any key</p>
+      <div class="content">
+        <div class="key-code"></div>
+        <div class="key-name"></div>
+        <div class="details">
+          <p class="key">Key: <span></span></p>
+          <p class="code">Code: <span></span></p>
+        </div>
+      </div>
+      <h3>Made by Mainak</h3>
+      <h4>This web application is used to detect your key-strokes and display the corresponding ASCII codes of the pressed key. Now, ASCII is No risky as you know what you type. 😎</h4>
+    </div>
+
+    <script>
+      const box = document.querySelector(".box");
+      document.addEventListener("keydown", e =>{
+        let keyName = e.keyCode === 32 ? "Space" : e.key;
+        box.querySelector(".key-code").innerText = e.keyCode;
+        box.querySelector(".key-name").innerText = keyName.toUpperCase();
+        box.querySelector(".key span").innerText = keyName;
+        box.querySelector(".code span").innerText = e.keyCode;  
+        box.classList.add("active");
+      });
+    </script>
+    
+  </body>
+</html>
