@@ -1,0 +1,83 @@
+* {
+  font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  background: #000;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.container {
+  flex: 1;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+canvas {
+  flex: 1;
+  border: 10px solid rgb(243, 6, 6);
+  margin-bottom: 10px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.controls {
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.input-button {
+  box-sizing: border-box;
+  font-size: 1em;
+  width: 125px;
+  height: 100%;
+  padding: 5px;
+  background-color: #ebebeb;
+  border: 1px solid #053cf3;
+  border-radius: 5px;
+  -webkit-transition: 0.3s;
+  -ms-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.input-button:hover {
+  background-color: #d1d1d1;
+}
+
+a, a:hover, a:focus, a:active {
+    padding-top: 20px;
+    text-decoration: none;
+    color: rgb(250, 249, 249);
+    font-size: 25px;
+}
+h1
+{
+    font-size: 30px;
+    color: rgb(255, 238, 0);
+}
+label
+{
+  color:rgb(21, 76, 226);
+}
