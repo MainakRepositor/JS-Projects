@@ -47,7 +47,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 39 | Pacman Game | [Demo](https://pacman-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Pacman) |
 | 40 | Customer Icecream Maker | [Demo]() | [Code]() |
 | 41 | Text to Speech | [Demo](https://textspeaker.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/T2S) |
-| 42 | Image to ASCII | [Demo](https://img2ascii.netlify.app/) | [Code]() |
+| 42 | Image to ASCII | [Demo](https://img2ascii.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Image%20ASCII) |
 | 42 | Car Games | [Demo]() | [Code]() |
 | 43 | Image Editor | [Demo]() | [Code]() |
 | 44 | Translator | [Demo]() | [Code]() |
