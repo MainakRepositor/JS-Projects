@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <title>Node Graphs</title>
+    <link rel='shortcut icon' type='image/x-icon' href='https://graphstream-project.org/media/img/randomWalk.png' />
+	<!--<script
+		src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+		crossorigin="anonymous"></script>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" 
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link type="text/css" rel="stylesheet" href="styles.css">
+    <script src="js/scripts.js"></script>
+    <script src="js/algorithms.js"></script>
+</head>
+<body>
+    <div class="custom container-fluid">
+        <h1>NODE GRAPH GENERATOR </h1>
+        <div class="row">
+            <div class="col-sm-2" id="controlbar">
+                <div class="control" id="newnode"><img src="img/add-node.png"><span>New node</span></div>
+                <div class="control"><img src="img/delete-node.png"><span>Delete node</span></div>
+                <div class="control"><img src="img/add-line.png"><span>New line</span></div>
+                <div class="control"><img src="img/delete-line.png"><span>Delete line</span></div>
+                <div class="control"><img src="img/move-node.png"><span>Move node</span></div>
+                <p id="shortest-path-heading">Shortest Path: </p>
+                <div class="custom containter-fluid shortest-path">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="node1">Start node:</label>
+                                <select id="node1" class="form-control">
+                        
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="form-group">
+                                <label for="node2">End node:</label>
+                                <select id="node2" class="form-control">
+                                    
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary" id="shortest-path-button">Calculate</button>
+            </div>
+            <div class="col-sm-7" id="stage">
+                <div class="line" id="tempLine"></div>
+            </div>
+            <div class="col-sm-3" id="sidebar">
+                <div class="inner">
+                    <h2>Build Logs</h2>
+                    <div id="message">Click options on the left to build graph.</div>
+                    <div id="log"></div> 
+                </div>
+            </div>
+        </div>
+        <h4>Made by : Mainak</h4>
+    </div>
+</body>
+</html>

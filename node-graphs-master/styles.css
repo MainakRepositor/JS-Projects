@@ -1,0 +1,141 @@
+body{
+    overflow: hidden;
+    background: url(img/bg.png);
+}
+.control {
+    border:3px solid rgb(128, 0, 6);
+    padding:5px;
+   margin-bottom:10px;
+    cursor: default;
+    user-select:none;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.control:hover {
+    background-color:#f1ee3a;
+}
+.control span {
+    margin-left:5px;
+}
+.control.selected {
+    background-color:#00fc2a;
+}
+.control.selected:hover {
+    background-color:#62ffff;
+}
+h1{
+    padding-top:-50px;
+    margin-top:-30px;
+    text-align: center;
+    color: #fae6ff;
+}
+h2{
+    text-align: center;
+    color: #fae6ff;
+}
+h4{
+    text-align: center;
+    margin-top: -10px;
+    color: #fae6ff;
+}
+#message,#log
+{
+    color:aliceblue;
+}
+.node {
+    position:absolute;
+    display:table-cell;
+    background-color:rgb(253, 253, 253);
+    width:30px;
+    height:30px;
+    border-radius:50%;
+/*    line-height:30px;*/
+    text-align:center;
+    vertical-align: middle;
+    cursor: default;
+    user-select:none;
+    z-index:2;
+}
+
+#stage {
+    height:600px;
+    padding-left:0px;
+    padding-right:0px;
+    border: 5px solid rgb(111, 136, 248);
+    position:relative;
+    border-radius: 10px;
+}
+
+.container-fluid.custom {
+    margin: 50px 0px;
+}
+
+#sidebar {
+    padding:0px 15px;
+}
+#sidebar .inner {
+    border: 3px solid rgb(3, 255, 150);
+    height:100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+#message {
+    font-style: italic;
+    text-align: center;
+
+}
+
+line {
+    stroke: black;
+    stroke-width:2;
+}
+#tempLine {
+    display:none;
+}
+.line {
+    height:2px;
+    background-color:rgb(82, 181, 238);
+    position:absolute;
+    z-index:1;
+}
+
+#controlbar, #stage, #sidebar {
+    margin-bottom:15px;
+}
+#shortest-path-button {
+    margin-left:20px;
+    font-size: 20px;
+    background-color: rgb(63, 35, 142);
+    border-radius: 50px;
+    padding:10px 50px;
+}
+#shortest-path-button:hover {
+    background-color: rgb(0, 255, 255);
+    color: rgb(2, 2, 37);
+    font-weight: 600;
+}
+#shortest-path-heading {
+    margin-top:50px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #fae6ff;
+}
+.on {
+/*    background-color:purple;*/
+    
+}
+.visiting {
+    border:2px solid rgb(240, 101, 9);
+}
+.visited {
+    background-color: rgb(30, 243, 11);
+}
+button {
+    border-radius: 10px;
+    align-items: center;
+}
+.form-group
+{
+    color:aliceblue;
+}
