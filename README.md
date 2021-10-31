@@ -49,7 +49,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 41 | Text to Speech | [Demo](https://textspeaker.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/T2S) |
 | 42 | Image to ASCII | [Demo](https://img2ascii.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Image%20ASCII) |
 | 42 | Car Games | [Demo]() | [Code]() |
-| 43 | Image Editor | [Demo](https://picstar.netlify.app/) | [Code]() |
+| 43 | Image Editor | [Demo](https://picstar.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Image%20Editor) |
 | 44 | Translator | [Demo]() | [Code]() |
 | 45 | Expense Tracker | [Demo]() | [Code]() |
 | 46 | Dictionary | [Demo]() | [Code]() |
