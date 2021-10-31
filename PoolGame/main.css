@@ -1,0 +1,419 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Muli;
+    font-weight: 300;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: default;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+html {
+    color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+}
+
+#renderView {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    font-family: 'Press Start 2P';
+}
+
+#interface h1 {
+    margin: 0px;
+    padding: 20px;
+}
+
+#beurt {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    pointer-events: none;
+}
+
+#winner {
+    z-index: 10;
+    position: fixed;
+    background-color: transparent;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+    pointer-events: none;
+}
+
+#imwinner {
+    background-image: url(img/textures/yourewinner.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.3);
+    opacity: 0;
+}
+
+#img {
+    background-image: url(img/textures/yourewinner.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.8);
+    display: none;
+}
+
+progress {
+    display: none;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(247, 234, 234);
+    transition: 0.3s;
+}
+
+progress[value] {
+    /* Reset the default appearance */
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+progress[value]::-webkit-progress-value {
+    background-image: -webkit-linear-gradient(-45deg, transparent 33%, rgba(0, 0, 0, .1) 33%, rgba(0, 0, 0, .1) 66%, transparent 66%), -webkit-linear-gradient(left, #2fcc00, #f44);
+    border-radius: 2px;
+    background-size: 35px 20px, 200% 100%, 100% 100%;
+}
+
+#messageBox {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    animation-name: rainbowBg;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: -4s;
+    height: 20px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    transform: translateY(60px);
+    transition: 0.3s;
+}
+
+#menu {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: .4s;
+    z-index: 1;
+    /*transform:translateX(-237.48px);*/
+}
+
+.menuItem {
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: 0.1s;
+}
+
+.menuItem:hover {
+    animation-name: rainbowBg;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: -4s;
+    color: white;
+}
+
+#interface {
+    position: fixed;
+    height: 100%;
+}
+
+@keyframes hideIt {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+#players {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 88px;
+    color: white;
+    transform-origin: center;
+    transform: scale(10) translateY(100px);
+    transition: .4s;
+}
+
+#stripeBalls {
+    transform: translateX(78px)
+}
+
+#cameraButton {
+    position: fixed;
+    right: 10px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 191, 10);
+    background-image: url(img/textures/camera.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.1);
+    display: none;
+    transition: 0.3s;
+}
+
+#help {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 60px);
+    height: calc(100% - 60px);
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 20px;
+    padding: 30px;
+    overflow-y: auto;
+    display: none;
+}
+#closeKeymap {
+    width: 20;
+    height: 20;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    right: 0px;
+    background-color: rgba(0,0,0,0.1);
+    padding: 25px;
+    padding-top: 15px;
+    cursor: pointer;
+    transition:0.1s;
+}
+#closeKeymap:hover{
+    color:white;
+    background-color:maroon;
+}
+#help h1 {
+    margin-bottom: 20px;
+}
+
+li {
+    list-style: none;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+li:first-child{
+    border-top:1px solid rgba(0,0,0,0.1);
+}
+
+.key {
+    display: inline-block;
+    min-width: 20px;
+    height: 25px;
+    padding: 15px;
+    padding-bottom:20px;
+    padding-top:10px;
+    font-size:20px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    box-shadow: inset -5px 5px 2px rgba(0, 0, 0, 0.15), inset 5px -5px 2px rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+}
+
+.bindName {
+    display: inline-block;
+    transform: translateY(7px);
+}
+
+#fullBalls,
+#stripeBalls {
+    width: calc(50% - 10px - 39px);
+    display: inline-block;
+    margin-right: -4px;
+    height: calc(100% - 10px);
+    padding: 5px;
+}
+
+#players>div>.name {
+    font-size: 30px;
+    transform: translateY(50%);
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    width: 150px;
+}
+
+#stripeBalls {
+    text-align: right !important;
+}
+
+.balls {
+    height: 100%;
+    transform: translateY(-50%);
+}
+
+.ball {
+    display: none;
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    border-radius: 50%;
+    margin-top: 8px;
+    background-size: 350%;
+    background-position: 188px 188px;
+}
+
+@media (max-width:1287px) and (min-height:542px) {
+    #players>div>.name {
+        width: 100%;
+    }
+    .balls {
+        position: fixed;
+        height: 100%;
+        top: 120px;
+        width: 60px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    #fullBalls .balls {
+        left: 10px;
+    }
+    #stripeBalls .balls {
+        right: 10px;
+    }
+    .ball {
+        margin-top: 5px;
+    }
+}
+
+.b1 {
+    background-image: url('img/textures/balls/1.png');
+}
+
+.b2 {
+    background-image: url('img/textures/balls/2.png');
+}
+
+.b3 {
+    background-image: url('img/textures/balls/3.png');
+}
+
+.b4 {
+    background-image: url('img/textures/balls/4.png');
+}
+
+.b5 {
+    background-image: url('img/textures/balls/5.png');
+}
+
+.b6 {
+    background-image: url('img/textures/balls/6.png');
+}
+
+.b7 {
+    background-image: url('img/textures/balls/7.png');
+}
+
+.b8 {
+    background-image: url('img/textures/balls/8.png');
+}
+
+.b9 {
+    background-image: url('img/textures/balls/9.png');
+}
+
+.b10 {
+    background-image: url('img/textures/balls/10.png');
+}
+
+.b11 {
+    background-image: url('img/textures/balls/11.png');
+}
+
+.b12 {
+    background-image: url('img/textures/balls/12.png');
+}
+
+.b13 {
+    background-image: url('img/textures/balls/13.png');
+}
+
+.b14 {
+    background-image: url('img/textures/balls/14.png');
+}
+
+.b15 {
+    background-image: url('img/textures/balls/15.png');
+}
+
+#fullBalls .balls {
+    margin-left: 150px;
+}
+
+#stripeBalls .balls {
+    margin-right: 150px;
+}
+
+#centerball {
+    top: 5px;
+    left: calc(50% - 30px);
+    background-color: black;
+    position: fixed;
+}
+
+@keyframes rainbowBg {
+    0% {
+        background-color: hsla(0, 100%, 50%, 0.8);
+    }
+    12.5% {
+        background-color: hsla(45, 100%, 50%, 0.8);
+    }
+    25% {
+        background-color: hsla(90, 100%, 50%, 0.8);
+    }
+    37.5% {
+        background-color: hsla(135, 100%, 50%, 0.8);
+    }
+    50% {
+        background-color: hsla(180, 100%, 50%, 0.8);
+    }
+    62.5% {
+        background-color: hsla(225, 100%, 50%, 0.8);
+    }
+    75% {
+        background-color: hsla(270, 100%, 50%, 0.8);
+    }
+    87.5% {
+        background-color: hsla(315, 100%, 50%, 0.8);
+    }
+    100% {
+        background-color: hsla(359, 100%, 50%, 0.8);
+    }
+}
