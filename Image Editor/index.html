@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
+  <meta charset="UTF-8">
+  <title>PicStar Image Editor</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h2>🎇Welcome to PicStar📸</h2>
+<h5>Made by Mainak</h5>
+<div class="editparts">
+			
+			<table>
+				<tr>
+					<input type="file" id="imageLoader" name="imageLoader" value="upload picture"/>
+				</tr>
+				<tr>
+					<td>Brightness</td>
+					<td><input type="checkbox" id="bri_check" /></td>
+					<td><input type="range" min="0" max="1" step="0.01" id="bright"></td>
+				</tr>
+				<tr>
+					<td>GreyScale</td>
+					<td><input type="checkbox" id="gre_check" /></td>
+					<td><input type="range" min="0" max="3" step="0.3" id="greyscale"></td>
+				</tr>
+				<tr>
+					<td>Contrast</td>
+					<td><input type="checkbox" id="cont_check" /></td>
+					<td><input type="range" min="0" max="500" step="1" id="contrast"></td>
+				</tr>
+				<tr>
+					<td>Invert</td>
+					<td><input type="checkbox" id="invert" /></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td>Black and White</td>
+					<td><input type="checkbox" id="bwhite" ></td>
+					<td></td>
+				</tr>
+			</table> 
+		</div>
+		<canvas id="canvas"></canvas>
+		<h4>How to use : </h4>
+		<h3><ol><li>Upload an image of .jpg or .png format</li>
+			<li>Click on the toggle buttons to apply the features</li>
+			<li>Drag the slider until you get a statisfying image</li>
+			<li>Right click on the image and select Save Image As</li>
+		</ol></h3>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
