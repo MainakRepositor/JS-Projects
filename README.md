@@ -48,7 +48,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 40 | Customer Icecream Maker | [Demo]() | [Code]() |
 | 41 | Text to Speech | [Demo](https://textspeaker.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/T2S) |
 | 42 | Image to ASCII | [Demo](https://img2ascii.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Image%20ASCII) |
-| 42 | Car Games | [Demo]() | [Code]() |
+| 42 | Billiards | [Demo](https://bhaggu-billiards.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/PoolGame) |
 | 43 | Image Editor | [Demo](https://picstar.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Image%20Editor) |
 | 44 | Translator | [Demo]() | [Code]() |
 | 45 | Expense Tracker | [Demo]() | [Code]() |
