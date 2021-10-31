@@ -1,0 +1,47 @@
+.map {
+    position: relative;
+    height: 100vh;
+    z-index: 0;
+}
+
+.marker {
+    background-image: url('../images/icon-location.svg');
+    background-size: cover;
+    width: 1.4375rem;
+    height: 1.75rem;
+    cursor: pointer;
+    top: -0.875rem !important;
+}
+
+.attribution{
+    position: absolute;
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    row-gap: 0.25rem;
+    background-color: rgba($color: white, $alpha: 0.5);
+    font-family: "Rubik" !important;
+    font-size: 0.5rem !important;
+    line-height: 1.2 !important;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding: 0.5rem;
+    width: calc(100% / 3);
+    max-width: 12rem;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+
+    a{
+        color: $veryDarkGray !important;
+        text-decoration: none !important;
+        font-weight: 700;
+
+        &:hover{
+            text-decoration: none !important;
+        }
+
+    }
+
+} 

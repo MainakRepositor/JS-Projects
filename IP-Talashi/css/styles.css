@@ -1,0 +1,572 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nMrXyi0A.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nFrXyi0A.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* hebrew */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nDrXyi0A.woff2) format("woff2");
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nPrXyi0A.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nMrXyi0A.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nFrXyi0A.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* hebrew */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nDrXyi0A.woff2) format("woff2");
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nPrXyi0A.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nMrXyi0A.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+/* cyrillic */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nFrXyi0A.woff2) format("woff2");
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* hebrew */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nDrXyi0A.woff2) format("woff2");
+  unicode-range: U+0590-05FF, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nPrXyi0A.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/rubik/v12/iJWKBXyIfDnIV7nBrXw.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+  font-family: 'Rubik';
+  font-size: 1.125rem;
+  background-color: #969696;
+  overflow-x: hidden;
+}
+
+a, a:visited, a:active, a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin: 0 auto;
+  max-width: 69.3125rem;
+}
+
+h2, h5, p {
+  margin: 0;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 18.75rem;
+  background-image: url(../images/pattern-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+
+.header__title {
+  text-align: center;
+  color: white;
+  font-size: 1.375rem;
+  font-weight: 500;
+  padding-top: 2rem;
+}
+
+.header__details {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  row-gap: 1.75rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  border-radius: 0.75rem;
+  padding: 1.75rem;
+  margin-top: 1.375rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.15) 0 1.5rem 4.5rem -3.5rem;
+          box-shadow: rgba(0, 0, 0, 0.15) 0 1.5rem 4.5rem -3.5rem;
+  -webkit-transition: height 300ms ease-in-out;
+  transition: height 300ms ease-in-out;
+}
+
+@media (max-width: 63.9375em) and (min-width: 40em) {
+  .header__details {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[2];
+        grid-template-rows: repeat(2, 1fr);
+    -webkit-column-gap: 0;
+            column-gap: 0;
+    row-gap: 0;
+    padding: 3.25rem 2.75rem;
+    margin-top: 3.875rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .header__details {
+    -ms-grid-columns: (1fr)[4];
+        grid-template-columns: repeat(4, 1fr);
+    -ms-grid-rows: none;
+        grid-template-rows: none;
+    -webkit-column-gap: 2.75rem;
+            column-gap: 2.75rem;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    padding: 3.25rem 2.75rem;
+    margin-top: 3.875rem;
+  }
+}
+
+#searchForm, .search__form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 8fr 2fr;
+      grid-template-columns: 8fr 2fr;
+  height: 3.75rem;
+  border-radius: 0.75rem;
+  margin-top: 1.375rem;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+}
+
+@media (min-width: 40em) {
+  #searchForm, .search__form {
+    max-width: 20.5rem;
+  }
+}
+
+@media (min-width: 64em) {
+  #searchForm, .search__form {
+    -ms-grid-columns: 9fr 1fr;
+        grid-template-columns: 9fr 1fr;
+    max-width: 46.25rem;
+    height: 4rem;
+  }
+}
+
+#searchField, #submit {
+  float: left;
+}
+
+#searchField:active, #searchField:focus, #searchField:focus-visible, #submit:active, #submit:focus, #submit:focus-visible {
+  outline: none;
+}
+
+#searchField {
+  width: 92.5%;
+  background-color: white;
+  font-family: 'Rubik';
+  border: none;
+  border-top-left-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+  padding-right: 1.375rem;
+  padding-left: 1.375rem;
+}
+
+@media (min-width: 64em) {
+  #searchField {
+    border-top-left-radius: 1.125rem;
+    border-bottom-left-radius: 1.125rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+#searchField::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+#submit {
+  position: relative;
+  width: 100%;
+  background-color: #2b2b2b;
+  border: none;
+  border-top-right-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media (min-width: 64em) {
+  #submit {
+    border-top-right-radius: 1.125rem;
+    border-bottom-right-radius: 1.125rem;
+  }
+}
+
+#submit::after {
+  content: "";
+  position: absolute;
+  width: 0.75rem;
+  height: 0.75rem;
+  background-image: url(../images/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#submit:hover::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.025);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.details__item {
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  -ms-grid-rows: (auto)[2];
+      grid-template-rows: repeat(2, auto);
+  row-gap: 0.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 63.9375em) and (min-width: 40em) {
+  .details__item:nth-of-type(1) {
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+  }
+  .details__item:nth-of-type(1)::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 0.0625rem;
+    background-color: #969696;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .details__item:nth-of-type(2) {
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+  }
+  .details__item:nth-of-type(3) {
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+  }
+  .details__item:nth-of-type(4) {
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
+  }
+  .details__item:nth-of-type(4)::before {
+    content: "";
+    position: absolute;
+    width: 80%;
+    height: 0.0625rem;
+    background-color: #969696;
+    top: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 64em) {
+  .details__item:not(:first-of-type) {
+    padding-left: 2.75rem;
+  }
+  .details__item:not(:first-of-type)::before {
+    content: "";
+    position: absolute;
+    width: 0.0625rem;
+    height: 5rem;
+    background-color: #969696;
+    top: 0;
+  }
+}
+
+.details__title {
+  text-align: center;
+}
+
+@media (min-width: 64em) {
+  .details__title {
+    text-align: left;
+  }
+}
+
+.details--small {
+  font-size: 0.5rem;
+  font-weight: 700;
+  color: #969696;
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+@media (min-width: 40em) {
+  .details--small {
+    font-size: 0.6875rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .details--small {
+    font-size: 0.875rem;
+  }
+}
+
+.details--medium {
+  display: none;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #2b2b2b;
+}
+
+@media (min-width: 40em) {
+  .details--medium {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 64em) {
+  .details--medium {
+    font-size: 1.5rem;
+  }
+}
+
+.details--medium.show {
+  display: block;
+}
+
+.details__placeholder {
+  position: relative;
+  height: 1.5rem;
+  width: 100%;
+  background-color: rgba(211, 211, 211, 0.25);
+  overflow: hidden;
+}
+
+.details__placeholder::before {
+  content: "";
+  position: absolute;
+  left: -45%;
+  height: 100%;
+  width: 45%;
+  background-image: -webkit-gradient(linear, right top, left top, from(rgba(251, 251, 251, 0.05)), color-stop(rgba(251, 251, 251, 0.3)), color-stop(rgba(251, 251, 251, 0.6)), color-stop(rgba(251, 251, 251, 0.3)), to(rgba(251, 251, 251, 0.05)));
+  background-image: linear-gradient(to left, rgba(251, 251, 251, 0.05), rgba(251, 251, 251, 0.3), rgba(251, 251, 251, 0.6), rgba(251, 251, 251, 0.3), rgba(251, 251, 251, 0.05));
+  background-image: -webkit-linear-gradient(to left, rgba(251, 251, 251, 0.05), rgba(251, 251, 251, 0.3), rgba(251, 251, 251, 0.6), rgba(251, 251, 251, 0.3), rgba(251, 251, 251, 0.05));
+  -webkit-animation: loading 500ms infinite;
+          animation: loading 500ms infinite;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.details__placeholder.none {
+  display: none;
+}
+
+@-webkit-keyframes loading {
+  0% {
+    left: -45%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes loading {
+  0% {
+    left: -45%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.map {
+  position: relative;
+  height: 100vh;
+  z-index: 0;
+}
+
+.marker {
+  background-image: url("../images/icon-location.svg");
+  background-size: cover;
+  width: 1.4375rem;
+  height: 1.75rem;
+  cursor: pointer;
+  top: -0.875rem !important;
+}
+
+.attribution {
+  position: absolute;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+  row-gap: 0.25rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-family: "Rubik" !important;
+  font-size: 0.5rem !important;
+  line-height: 1.2 !important;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0.5rem;
+  width: calc(100% / 3);
+  max-width: 12rem;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.attribution a {
+  color: #2b2b2b !important;
+  text-decoration: none !important;
+  font-weight: 700;
+}
+
+.attribution a:hover {
+  text-decoration: none !important;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.0/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.0/mapbox-gl.css' rel='stylesheet' />
+
+  <title>IP Address Tracker</title>
+</head>
+<body>
+
+  <header class="header">
+
+    <div class="container">
+
+      <h2 class="header__title">IP Address Tracker</h2>
+
+      <form id="searchForm" class="search__form" action="#" method="get" onsubmit="replaceIPDetails(searchField.value);return false">
+        <input type="search" name="searchField" aria-label="search" id="searchField" placeholder="Search for any IP address or domain">
+        <button type="submit" aria-label="submit" id="submit"></button>
+      </form>
+
+      <div class="header__details">
+
+        <div class="details__item">
+          <h5 class="details__title details--small">IP Address</h5>
+          <div class="details__placeholder">
+          </div>
+          <p class="details__title details--medium" id="ip-address"></p>
+        </div>
+
+        <div class="details__item">
+          <h5 class="details__title details--small">Location</h5>
+          <div class="details__placeholder">
+          </div>
+          <p class="details__title details--medium" id="location"></p>
+        </div>
+
+        <div class="details__item">
+          <h5 class="details__title details--small">Timezone</h5>
+          <div class="details__placeholder">
+          </div>
+          <p class="details__title details--medium" id="timezone"></p>
+        </div>
+
+        <div class="details__item">
+          <h5 class="details__title details--small">ISP</h5>
+          <div>
+            <div class="details__placeholder">
+            </div>
+            <div class="details__placeholder" style="margin-top: 0.5rem">
+            </div>
+            <p class="details__title details--medium" id="isp"></p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+      
+  </header>
+
+  <div id='map' class="map">
+
+    
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script src="./js/mapbox.js"></script>
+</body>
+</html>
