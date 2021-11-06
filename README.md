@@ -36,7 +36,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 28 | IP-Lookup | [Demo](https://ip-talashi.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/IP-Talashi) |
 | 29 | Voice Visuaizer | [Demo](https://voice-viz.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Voice%20Visualizer) |
 | 30 | Seat Booking | [Demo](https://seat-booker.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Seat%20Booking) |
-| 31 | Theme Changer | [Demo]() | [Code]() |
+| 31 | Theme Changer | [Demo](https://festive-themer.netlify.app/) | [Code]() |
 | 32 | Star-Trek | [Demo](https://space-trek-mws.netlify.app) | [Code]() |
 | 33 | Typewriter | [Demo]() | [Code]() |
 | 34 | Pathfinder | [Demo]() | [Code]() |
