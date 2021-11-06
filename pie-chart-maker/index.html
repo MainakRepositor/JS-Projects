@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title></title>
+        <link type="text/css" rel="stylesheet" href="style.css"/>
+        <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+        <script src="script.js"></script>
+	</head>
+	<body>
+        <div id="header"><h1>PIE-CHART MAKER</h1></div>
+        <div id="main">
+            <div id ="graph">
+                <canvas width="600" height="400" id="graphArea">
+                </canvas><br>
+                <button onclick="gengraph()">GENERATE</button>
+                <button onclick="cleargraph()">CLEAR</button>
+            </div>            
+            <div id="input">
+                <div id="intitule">
+                    <p id ="inputName">Names</p>
+                    <p id ="inputData">Data</p>
+                </div>
+                <div id="inputs">
+                    <input id="name0" class="names" type="text"></input><input id="number0" class="numbers" type="number" min="0"></input>
+                </div>
+                <div id="extraInputs"></div>
+                <button id="add" onclick="add()">ADD</button><p id="max"></p>
+            </div>    
+        </div>
+	</body>
+</html>

@@ -1,0 +1,127 @@
+
+body{
+    background-color: #75c7ff;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+h1{
+    color: white;
+    font-family: sans-serif;
+    padding-top: 50px;
+    margin-bottom:-10px;
+    margin-left:320px;
+}
+
+button{
+    background-color: #0069b2;  
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+
+#main{
+    padding: 50px;
+    margin-left:500px;
+    margin-top: 20px;
+    height: 400px;
+    width: 100%;
+    border-radius: 20px;
+   
+}
+
+#graph{  
+    padding: 15px;
+    background-color: #d1ecff;
+    width: 670px;
+    height: 440px;
+    float: left;   
+    text-align: center;
+}
+
+#graphArea{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+#input{
+    width: 250px;
+    margin-left: 15px;
+    padding: 10px;
+    float: left;
+    background-color: #d1ecff;
+    
+}
+
+#intitule{
+    height: 25px;
+    padding: 5px;
+}
+#inputName{
+    font-family: "Yanone Kaffeesatz";
+    text-transform: uppercase;
+    display: inline-block;
+    width: 146px;
+    font-size: 30px;
+    color: #007da3;
+    position:relative;
+
+    bottom: 35px;
+}
+
+#inputData {
+    font-family: "Yanone Kaffeesatz";
+    text-transform: uppercase;
+    display: inline-block;
+    width: 50px;
+    font-size: 30px;
+    color: #007da3;
+    position:relative;
+    bottom: 35px;
+    margin-right:10px;
+}
+
+
+
+#inputs{
+    margin: 0px;
+}
+
+.numbers {
+    width: 40px;
+     
+}
+
+#add{
+    width: 210px;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.remove{
+    background-color: red;
+    color: white;
+    border: none;
+    height: 20px;
+    padding:2px;
+    width: 20px;
+    text-align: center;
+    margin-left: 2px;
+
+}
+
+.msg{
+    font-family: "Yanone Kaffeesatz";
+    color: #007da3;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+
