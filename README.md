@@ -51,7 +51,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 42 | Billiards | [Demo](https://bhaggu-billiards.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/PoolGame) |
 | 43 | Image Editor | [Demo](https://picstar.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Image%20Editor) |
 | 44 | Translator | [Demo]() | [Code]() |
-| 45 | Expense Tracker | [Demo]() | [Code]() |
+| 45 | Expense Tracker | [Demo](https://expense-tracker-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Expense-Tracker-main) |
 | 46 | Dictionary | [Demo]() | [Code]() |
 | 47 | Graph Generator | [Demo](https://node-graph-generator.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/node-graphs-master) |
 | 48 | ChatBot | [Demo]() | [Code]() |
