@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<!-- ChatBot -->
+<link rel="stylesheet" type="text/css" href="css/jquery.convform.css">
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.convform.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+
+</head>
+<body>
+<!-- ChatBot -->
+<div class="chat_icon">
+	<i class="fa fa-comments" aria-hidden="true"></i>
+</div>
+
+<div class="chat_box">
+	<div class="my-conv-form-wrapper">
+		<form action="" method="GET" class="hidden">
+
+      <select data-conv-question="Hello! How can I help you" name="category">
+        <option value="WebDevelopment">Website Development ?</option>
+        <option value="DigitalMarketing">Digital Marketing ?</option>
+      </select>
+
+      <div data-conv-fork="category">
+        <div data-conv-case="WebDevelopment">
+          <input type="text" name="domainName" data-conv-question="Please, tell me your domain name">    
+        </div>
+        <div data-conv-case="DigitalMarketing" data-conv-fork="first-question2">
+          <input type="text" name="companyName" data-conv-question="Please, enter your company name"> 
+        </div>
+      </div>
+
+      <input type="text" name="name" data-conv-question="Please, Enter your name">
+
+      <input type="text" data-conv-question="Hi {name}, <br> It's a pleasure to meet you." data-no-answer="true">
+
+      <input data-conv-question="Enter your e-mail" data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" type="email" name="email" required placeholder="What's your e-mail?">
+
+      <select data-conv-question="Please Conform">
+        <option value="Yes">Conform</option>
+      </select>
+
+  	</form>
+	</div>
+</div>
+<!-- ChatBot end -->
+
+<header class="header">
+	<div class="container-fluid">
+		<div class="row d-flex justify-content-between">
+			<div class="col-md-auto">
+				<a href="#!" class="logo"><img src="images/logo.png" alt="logo"></a>
+			</div>
+			<div class="col-md-auto">
+				<nav class="main_nav">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About Us</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>		
+	</div>
+</header>	
+
+<div class="banner d-flex align-items-center" style="background-image: url('images/banner.jpg');" id="home">
+	<ul class="socila_links">
+		<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+		<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+		<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+	</ul>	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-5">
+				<div class="banner_cont">
+					<h1>John Doe</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>			
+
+<div class="about-section" id="about">
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-5 text-justify">
+				<h2 class="bdr-btm">More About John Doe</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="#contact" class="btn1">Contact Us</a>	
+			</div>
+			<div class="col-md">
+				<div class="about-box">
+					<h3 class="bdr-btm">Education</h3>
+					<ul>
+						<li><strong>Lorem ipsum dolor</strong> <br> sit amet, consectetur adipisicing</li>
+						<li><strong>Lorem ipsum dolor</strong> <br> sit amet, consectetur adipisicing</li>
+						<li><strong>Lorem ipsum dolor</strong> <br> sit amet, consectetur adipisicing</li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md">
+				<div class="about-box">
+					<h3 class="bdr-btm">Experience</h3>
+					<ul>
+						<li><strong>Lorem ipsum dolor</strong> <br> sit amet, consectetur adipisicing</li>
+						<li><strong>Lorem ipsum dolor</strong> <br> sit amet, consectetur adipisicing</li>
+						<li><strong>Lorem ipsum dolor</strong> <br> sit amet, consectetur adipisicing</li>
+					</ul>
+				</div>
+			</div>
+		</div>	
+	</div>
+</div>
+
+<div class="portfolio-section" id="portfolio">
+	<div id="port_pop_pic_bg"></div>
+	<div id="port_pop_pic"></div>
+	<div class="container-fluid">
+		<h2 class="text-center bdr-btm bdr-btm-center">Portfolio</h2>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/port1.jpeg');">
+					<h3>Portfolio ipsum dolor</h3>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/port2.jpeg');">
+					<h3>Portfolio ipsum dolor</h3>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/port3.jpeg');">
+					<h3>Portfolio ipsum dolor</h3>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/port4.jpeg');">
+					<h3>Portfolio ipsum dolor</h3>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/port5.jpeg');">
+					<h3>Portfolio ipsum dolor</h3>
+				</div>		
+			</div>
+			<div class="col-md-4">
+				<div class="portfolio-box" style="background-image: url('images/port6.jpeg');">
+					<h3>Portfolio ipsum dolor</h3>
+				</div>		
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="contact-section d-md-flex" id="contact">
+  <div class="col-md-6 col-12 contact_section_left">
+    <div class="contact_box">
+      <i class="fa fa-phone"></i>
+      <h3>Phone</h3>
+      <p>512-421-3940</p>
+    </div>
+    <div class="contact_box">
+      <i class="fa fa-envelope"></i>
+      <h3>Email</h3>
+      <p>support@yourdomain.com</p>
+    </div>
+    <div class="contact_box">
+      <i class="fa fa-map-marker"></i>
+      <h3>Address</h3>
+      <p>1234 Lorem ipsum dolor</p>
+    </div>
+  </div>
+  <div class="col-md-6 col-12 contact_section_right d-flex align-items-center">
+    <div class="contact_box">
+      <h2 class="bdr-btm">Get In Touch</h2>
+      <form>
+        <div>
+          <input type="text" name="" placeholder="Name">
+          <input type="text" name="" placeholder="Email">
+          <input type="text" name="" placeholder="Subject">
+          <textarea placeholder="Message"></textarea>
+          <input type="submit" class="inline-block" name="" value="Send Message">
+
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+	portfolioList = document.querySelectorAll('.portfolio-box');
+	portfolioList.forEach(function(portfolioPic) {
+		portfolioPic.addEventListener('click',function(){
+			bg = this.style.backgroundImage;
+			document.getElementById('port_pop_pic_bg').classList.add("active")
+			document.getElementById('port_pop_pic').style.backgroundImage = bg
+			document.getElementById('port_pop_pic').classList.add("active")
+		});	
+	})
+	document.getElementById('port_pop_pic_bg').addEventListener('click',function(){
+			document.getElementById('port_pop_pic_bg').classList.remove("active")
+			document.getElementById('port_pop_pic').classList.remove("active")
+	})
+</script>
+
+</body>
+</html>
