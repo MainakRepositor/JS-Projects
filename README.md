@@ -39,7 +39,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 31 | Theme Changer | [Demo](https://festive-themer.netlify.app/) | [Code]() |
 | 32 | Star-Trek | [Demo](https://space-trek-mws.netlify.app) | [Code]() |
 | 33 | Typewriter | [Demo]() | [Code]() |
-| 34 | Pathfinder | [Demo]() | [Code]() |
+| 34 | CRUD Application | [Demo](https://jscrud-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/JS%20CRUD) |
 | 35 | Binary Tree Visulaizer | [Demo](https://binary-tree-viz.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Binary-Tree-Visualizer) |
 | 36 | Chart Maker | [Demo](https://pie-charter.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/pie-chart-maker) |
 | 37 | Sorting Visualizer | [Demo](https://sortviz-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Sorting-Visualization) |
