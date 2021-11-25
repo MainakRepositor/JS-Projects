@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DictionaryJI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://acegif.com/wp-content/gifs/book-95.gif" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <img src="https://acegif.com/wp-content/gifs/book-95.gif" width="100">
+      <h1 class="h1">DICTIONARY JI</h1>
+      <div class="input">
+        <input
+          class="search-field"
+          onkeypress="handle(event)"
+          type="text"
+          placeholder="Type and press enter"
+        />
+      </div>
+      <div class="result">
+        <h1 id="word" class="word"></h1>
+        <p class="phonetics"></p>
+        <audio class="audio" controls></audio>
+        <p class="meaningheading">Meaning</p>
+        <p class="word-definition"></p>
+        <p class="meaningheading">Synonyms</p>
+        <div class="synonyms"></div>
+      </div>
+      <p id="credits"><a href="https://www.linkedin.com/in/mainak-chaudhuri-127898176/" target="_blank">&copy; Mainak 2021</a></p>
+    </div>
+    
+    <!-- script tag here -->
+    <script src="./app.js"></script>
+  </body>
+</html>
