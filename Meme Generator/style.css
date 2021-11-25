@@ -1,0 +1,59 @@
+.title
+{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-bottom: -10px;
+  margin-top: -10px;
+  background-color: azure;
+  color: rgb(55, 4, 136);
+}
+.footer
+{
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #000;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  
+  background-color: azure;
+  color: rgb(55, 4, 136);
+}
+
+.meme-generator {
+    margin: 20px auto;
+    width: 500px;
+    padding:10px;
+    border-radius: 20px;
+    background-color: rgb(80, 255, 255);
+    font-family: sans-serif;
+  }
+  
+  .meme-generator label {
+    display: block;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .meme-generator input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid rgb(34, 32, 32);
+    border-radius: 20px;
+    font-size: 22px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+  }
+  
+  #meme {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  label
+  {
+    align-items: center;
+  }
