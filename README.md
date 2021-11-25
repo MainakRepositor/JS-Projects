@@ -36,8 +36,8 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 28 | IP-Lookup | [Demo](https://ip-talashi.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/IP-Talashi) |
 | 29 | Voice Visuaizer | [Demo](https://voice-viz.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Voice%20Visualizer) |
 | 30 | Seat Booking | [Demo](https://seat-booker.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Seat%20Booking) |
-| 31 | Theme Changer | [Demo](https://festive-themer.netlify.app/) | [Code]() |
-| 32 | Star-Trek | [Demo](https://space-trek-mws.netlify.app) | [Code]() |
+| 31 | Theme Changer | [Demo](https://festive-themer.netlify.app/) | [Code](https://festive-themer.netlify.app/) |
+| 32 | Star-Trek | [Demo](https://space-trek-mws.netlify.app) | [Code](https://space-trek-mws.netlify.app/) |
 | 33 | Typewriter | [Demo]() | [Code]() |
 | 34 | CRUD Application | [Demo](https://jscrud-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/JS%20CRUD) |
 | 35 | Binary Tree Visulaizer | [Demo](https://binary-tree-viz.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Binary-Tree-Visualizer) |
@@ -50,12 +50,12 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 42 | Image to ASCII | [Demo](https://img2ascii.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Image%20ASCII) |
 | 42 | Billiards | [Demo](https://bhaggu-billiards.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/PoolGame) |
 | 43 | Image Editor | [Demo](https://picstar.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Image%20Editor) |
-| 44 | Translator | [Demo]() | [Code]() |
+| 44 | Meme Generator | [Demo](https://memeistan.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Meme%20Generator) |
 | 45 | Expense Tracker | [Demo](https://expense-tracker-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Expense-Tracker-main) |
-| 46 | Dictionary | [Demo](https://dictionary-ji.netlify.app/) | [Code]() |
+| 46 | Dictionary | [Demo](https://dictionary-ji.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/dictionary%20ji) |
 | 47 | Graph Generator | [Demo](https://node-graph-generator.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/node-graphs-master) |
-| 48 | ChatBot | [Demo]() | [Code]() |
+| 48 | ChatBot | [Demo](https://chitchat-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/chitchat) |
 | 49 | GameOfLife | [Demo](https://seegameoflife.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/GameOfLife) |
-| 50 | Keypress Detector | [Demo]() | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/KeyPress) |
+| 50 | Keypress Detector | [Demo](https://github.com/MainakRepositor/JS-Projects/tree/master/KeyPress) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/KeyPress) |
 
 
