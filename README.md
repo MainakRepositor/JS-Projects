@@ -31,7 +31,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 23 | Weather App | [Demo](https://mausamdoot.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/MausamDoot) |
 | 24 | Countdown Timer | [Demo](https://countdown-timer-mws.netlify.app) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Countdown%20timer) |
 | 25 | Drag and Drop Cards | [Demo](https://animalia-dd.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/DD-Animalia) |
-| 26 | Music Player | [Demo](https://github.com/MainakRepositor/Musifier) | [Code](https://github.com/MainakRepositor/Musifier) | 
+| 26 | Music Player | [Demo](https://musifier.netlify.app/) | [Code](https://github.com/MainakRepositor/Musifier) | 
 | 27 | Drum Kit | [Demo](https://drumwala.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/JS-drum) |
 | 28 | IP-Lookup | [Demo](https://ip-talashi.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/IP-Talashi) |
 | 29 | Voice Visuaizer | [Demo](https://voice-viz.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Voice%20Visualizer) |
