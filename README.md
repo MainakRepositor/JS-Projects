@@ -38,7 +38,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 30 | Seat Booking | [Demo](https://seat-booker.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Seat%20Booking) |
 | 31 | Theme Changer | [Demo](https://festive-themer.netlify.app/) | [Code](https://festive-themer.netlify.app/) |
 | 32 | Star-Trek | [Demo](https://space-trek-mws.netlify.app) | [Code](https://space-trek-mws.netlify.app/) |
-| 33 | Image to PDF converter | [Demo]() | [Code]() |
+| 33 | Image to PDF converter | [Demo](https://image2pdfcon.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Img2Pdf) |
 | 34 | CRUD Application | [Demo](https://jscrud-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/JS%20CRUD) |
 | 35 | Binary Tree Visulaizer | [Demo](https://binary-tree-viz.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Binary-Tree-Visualizer) |
 | 36 | Chart Maker | [Demo](https://pie-charter.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/pie-chart-maker) |
