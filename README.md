@@ -31,7 +31,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 23 | Weather App | [Demo](https://mausamdoot.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/MausamDoot) |
 | 24 | Countdown Timer | [Demo](https://countdown-timer-mws.netlify.app) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Countdown%20timer) |
 | 25 | Drag and Drop Cards | [Demo](https://animalia-dd.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/DD-Animalia) |
-| 26 | Music Player | [Demo]() | [Code]() |
+| 26 | Music Player | [Demo]()* | [Code]()* | 
 | 27 | Drum Kit | [Demo](https://drumwala.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/JS-drum) |
 | 28 | IP-Lookup | [Demo](https://ip-talashi.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/IP-Talashi) |
 | 29 | Voice Visuaizer | [Demo](https://voice-viz.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Voice%20Visualizer) |
@@ -45,7 +45,7 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 37 | Sorting Visualizer | [Demo](https://sortviz-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Sorting-Visualization) |
 | 38 | Sudoku Game | [Demo](https://sudoku-game-mws.netlify.app) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Sudoku-JS) |
 | 39 | Pacman Game | [Demo](https://pacman-mws.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Pacman) |
-| 40 | Customer Icecream Maker | [Demo]() | [Code]() |
+| 40 | Number System Converter | [Demo](https://numeral-conv.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Number%20Converter) |
 | 41 | Text to Speech | [Demo](https://textspeaker.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/T2S) |
 | 42 | Image to ASCII | [Demo](https://img2ascii.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/Image%20ASCII) |
 | 42 | Billiards | [Demo](https://bhaggu-billiards.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/PoolGame) |
