@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
+    background: linear-gradient(271deg, #6758f0,#f70606, #eef300,#0afa16) no-repeat center
+    center fixed;
+    background-size: 600% 600%;
+    -webkit-animation: simpleGradientAnimation 10s ease infinite;
+    -moz-animation: simpleGradientAnimation 10s ease infinite;
+    animation: simpleGradientAnimation 10s ease infinite;
+    /* background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%) no-repeat center
+    center fixed; */
+} 
+
+@keyframes simpleGradientAnimation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 30%}
+    100%{background-position:0% 71%}
+}
+
+ @-webkit-keyframes simpleGradientAnimation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+} 
+
+@-moz-keyframes simpleGradientAnimation {
+    0%{background-position:0% 51%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 51%}
+} 
+
+
+#flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(52, 230, 253);
+    width: 70vw;
+    height: 80vh;
+    margin: auto;
+    font-size: 23px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+#flex-container:hover {
+    /* box-shadow: 2px 2px 3px 8px rgb(245, 133, 226); */ 
+    box-shadow: 16px 2px 3px 2px rgba(12,0,0,0.52);
+}
+
+#flex-container p {
+    font-size: 2rem;
+    position: absolute;
+    top:40px;
+    text-transform: capitalize;
+    padding-bottom:50px;
+    color:rgb(72, 0, 207);
+}
+
+#flex-container input {
+    margin-top: 5px;
+    font-size: 80%;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    border: 3px solid rgb(44, 119, 231);
+    border-radius: 60px;
+}
+
+#options {
+   display: flex;
+   width: 200px;
+   height: 40px;
+   border: 3px solid #999;
+   font-size: 20px;
+   color: #00ff4c;
+   background-color: rgb(0, 0, 0);
+   border-radius: 20px;
+   padding-left: 60px;
+   margin-top: 10px;
+}
+
+button.selectType {
+    display: flex;
+    background-color: #ee4d0e;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 26px;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+
+#footer
+{
+    font-size: 1.2rem;
+    text-align: center;
+}

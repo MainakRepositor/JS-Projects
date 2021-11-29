@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Binary to Decimal">
+    <meta name="author" content="IWS">
+    <title>Number System Converter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel = "icon" href = "https://i.pinimg.com/originals/0d/38/a6/0d38a6aa1acec423ff693b021a1cdda1.png" type = "image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="flex-container">
+        <p class="item-1">
+            Number System Converter
+        </p>
+         
+        <input class="item2" type="text" id="Decimal" placeholder="Enter a decimal number">
+        <select class="item3" name="options" id="options">
+            <option value="Binary">Binary</option>
+            <option value="Octal">Octal</option>
+            <option value="Hexadecimal">Hexadecimal</option>
+        </select>
+        <button class="selectType" type="button" onclick="getResult()">Convert</button>
+        
+    </div>
+
+    <p id="footer">&copy; Mainak 2021</p>
+    <script src="script.js"></script>
+</body>
+</html>
