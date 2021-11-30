@@ -58,4 +58,5 @@ A collection of 50 JavaScript Projects. Pickup and add to your resume. 😉
 | 49 | GameOfLife | [Demo](https://seegameoflife.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/GameOfLife) |
 | 50 | Keypress Detector | [Demo](https://keypress-detector.netlify.app/) | [Code](https://github.com/MainakRepositor/JS-Projects/tree/master/KeyPress) |
 
-
+Made with ❤:
+&copy; [Mainak Chaudhuri](https://www.linkedin.com/in/mainak-chaudhuri-127898176/)
